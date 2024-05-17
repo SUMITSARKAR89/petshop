@@ -1,0 +1,145 @@
+@media screen and (max-width: 1400px)  {
+    body{
+        width: 98%;
+    }
+    .container{
+        padding: 1% 2%;
+        
+    }
+    header nav{
+       
+        height: 10vh;
+    
+    
+    }
+    
+}
+
+@media screen and (max-width: 1280px){
+    :root{
+        --h1-font: 50px;
+        --h2-font:30px;
+        --h3-font:20px;
+        --h4-font:22px;
+        --p-font:15px;
+    }
+    nav ul li a{
+        font-size: 16px;
+        padding: 8px 15px;   
+    
+    }
+    .hero{
+       
+        height: 80vh;
+        
+    }
+    hr{
+        width: 41%;  
+    }
+    .hr-div span{
+        font-size: 20px;
+    }
+    .buttons button, 
+    .democard-content button{
+    
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 500;
+   
+    
+}
+.features .feature-card{   
+    grid-template-columns: repeat(2, 1fr) ;   
+}
+.demo-cards .democard{
+    gap: 10px;  
+}
+.democard-content .icon-text p{ 
+    font-size: 15px;
+}
+.btn{
+    font-size: var(--p-font);
+}
+}
+@media screen and (max-width: 992px){
+    nav ul li a{
+        display: none; 
+    
+    }
+    #menu{
+       
+        display: block;
+    }
+    section{
+        padding: 2% 0;
+    }
+    .features .feature-card, 
+    .demos .demo-cards,
+    .multi .multi-head
+       {   
+        grid-template-columns:  1fr;   
+    }
+    .btn{
+        width: 100%;
+        margin:  0 auto;
+    }
+
+}
+@media screen and (max-width: 780px){
+    :root{
+        --h1-font: 40px;
+        --h2-font:25px;
+        --h3-font:18px;
+        --h4-font:20px;
+        --p-font:14px;
+    }
+    .container{
+        padding: 1% 5%;
+        
+    }
+    .multi-head .multi-head-card p{
+        margin: 10px 0;
+        font-size: var(--h3-font);
+        font-weight: 400;
+    }
+    footer .foot{
+        padding-top: 10%;
+    }
+    footer .foot h2{
+        font-size: 45px;
+        font-size: 600;
+    }
+    .hr-div span{
+        font-size: 16px;
+    }
+    a.footer-btn{
+        padding: 10px 3%;
+        font-size: var(--h2-font);
+       
+    }
+
+
+}
+@media screen and (max-width: 600px){
+    :root{
+        --h1-font: 32px;
+        --h2-font:22px;
+        --h3-font:16px;
+        --h4-font:18px;
+        --p-font:14px;
+    }
+    .hero h1{
+        padding-top: 80px;
+       
+    }
+    footer .foot h2{
+        font-size: 35px;
+        
+    }
+    a.footer-btn{
+        padding: 10px 2%;
+        
+       
+    }
+
+}
